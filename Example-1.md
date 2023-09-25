@@ -49,10 +49,11 @@
 
    ![image](https://github.com/marcelchlupsa/segmentation-examples/assets/66844588/8d5b0f7a-ea91-4ac8-bb0d-f84755d2b760)
 
-   If 1's in the binary image are intersecting the surfaces of the array, then patch() will not mesh that surface. You may choose to use built-in padarray() or 'padfaces.m' to add 0's to the surfaces of the binary volume. 
+   If 1's in the binary image are intersecting the surfaces of the array, then patch() will not mesh that surface. You may choose to use built-in padarray() or 'padfaces.m' to add 0's to the surfaces of the binary volume, and then redo isosurface() and patch(). 
 
    ```Matlab
-   ImageVolume_segment_mesh = padfaces(ImageVolume_segment_mesh,'zeros');
+   ImageVolume_segment = padfaces(ImageVolume_segment,'zeros');
+   ImageVolume_segment_mesh = isosurface(ImageVolume_segment);
    figure, patch(ImageVolume_segment_mesh,'edgecolor','none','facecolor','green','facealpha',0.3), view(3)
    ```
 
