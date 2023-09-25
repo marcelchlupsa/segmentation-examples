@@ -24,6 +24,7 @@
   Plot the histogram of all voxel data (shows range and distribution of values)
   ```Matlab
   figure, histogram(reshape(ImageVolume,[numel(ImageVolume),1]))
+  xlabel('Values'), ylabel('Number of voxels')
   ```
   
   ![image](https://github.com/marcelchlupsa/segmentation-examples/assets/66844588/419456ad-f5a4-4986-b0cd-3d0617fe2ea6)
