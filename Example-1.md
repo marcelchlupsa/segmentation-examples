@@ -17,7 +17,7 @@
   figure, imshow(squeeze(ImageVolume(:,:,slice_idx)))
   ```
   
-  ![image](https://github.com/marcelchlupsa/segmentation-examples/assets/66844588/30721f5a-14e0-4497-8866-50a2cbb01aa7)
+  ![image](https://github.com/marcelchlupsa/segmentation-examples/assets/66844588/a5144715-c1d9-424b-bde5-b283d1f4d5a3)
 
 3. Examine the pixel data
 
