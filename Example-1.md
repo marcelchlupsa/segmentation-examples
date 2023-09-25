@@ -2,7 +2,7 @@
 
 1. Import an image array of interest
    
-   ... continue to step 2 if you have a 3-dimensional array stored as a variable in the MATLAB workspace (probably double-type or single-type). Let the array be called:
+   Continue to step 2 if you have a 3-dimensional array stored as a variable in the MATLAB workspace (probably double-type or single-type). Let the array be called:
   
    ```Matlab
    ImageVolume
@@ -10,7 +10,7 @@
 
 2. Examine the image
 
-   Check a close-to-the-middle z-slice of the image (tomography reconstructions have poorer quality nearer to the first and last slices )
+   Check a close-to-the-middle z-slice of the image (tomography reconstructions have poorer quality nearer to the first and last slices)
 
    ```Matlab
    slice_idx = ceil(size(ImageVolume,3)/2);
