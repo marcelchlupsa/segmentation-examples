@@ -10,7 +10,7 @@
 
 2. Examine the image
 
-   Check a close-to-the-middle z-slice of the image (tomography reconstructions are typically poorer quality nearer to the first and last slices )
+   Check a close-to-the-middle z-slice of the image (tomography reconstructions have poorer quality nearer to the first and last slices )
 
    ```Matlab
    slice_idx = ceil(size(ImageVolume,3)/2);
