@@ -1,22 +1,23 @@
 # Segmenting a multi-modal scalar distribution (EASIEST)
 
 1. Import an image array of interest
-  //
+   
   ... continue to step 2 if you have a 3-dimensional array stored as a variable in the matlab workspace (probably double-type or single-type). Let the array be called:
-  ```
+  
+  ```MATLAB
   ImageVolume
   ```
-  //
 
 2. Examine the image
-  //
+
   Check a close-to-the-middle z-slice of the image (tomography reconstructions are typically poorer quality nearer to the first and last slices )
-  ```
+  
+  ```MATLAB
   slice_idx = ceil(size(ImageVolume,3)/2);
   figure, imshow(squeeze(ImageVolume(:,:,slice_idx)))
   ```
+  
   ![image](https://github.com/marcelchlupsa/segmentation-examples/assets/66844588/30721f5a-14e0-4497-8866-50a2cbb01aa7)
-  //
 
 3. Examine the pixel data
   //
