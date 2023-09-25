@@ -44,7 +44,7 @@
 
    ```Matlab
    ImageVolume_segment_mesh = isosurface(ImageVolume_segment);
-   figure, patch(ImageVolume_segment_mesh,'edgecolor','none','facecolor','green','facealpha',0.3)
+   figure, patch(ImageVolume_segment_mesh,'edgecolor','none','facecolor','green','facealpha',0.3), view(3)
    ```
 
    ![image](https://github.com/marcelchlupsa/segmentation-examples/assets/66844588/8d5b0f7a-ea91-4ac8-bb0d-f84755d2b760)
@@ -53,8 +53,11 @@
 
    ```Matlab
    ImageVolume_segment_mesh = padfaces(ImageVolume_segment_mesh,'zeros');
-   figure, patch(ImageVolume_segment_mesh,'edgecolor','none','facecolor','green','facealpha',0.3)
+   figure, patch(ImageVolume_segment_mesh,'edgecolor','none','facecolor','green','facealpha',0.3), view(3)
    ```
+
+   ![image](https://github.com/marcelchlupsa/segmentation-examples/assets/66844588/b794996d-7cbd-446f-b70f-c29003757061)
+
    
 6. Improve the segmentation
 
