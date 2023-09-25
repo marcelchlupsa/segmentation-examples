@@ -27,7 +27,7 @@
   xlabel('Values'), ylabel('Number of voxels')
   ```
   
-  ![image](https://github.com/marcelchlupsa/segmentation-examples/assets/66844588/419456ad-f5a4-4986-b0cd-3d0617fe2ea6)
+  ![image](https://github.com/marcelchlupsa/segmentation-examples/assets/66844588/ededc962-c807-48f9-964d-319197fe520b)
   
   This provided example of voxel data is both normalized and trimodal, having a sharp peak at 0, a second peak around 0.35, and a third peak around 0.8.
 
