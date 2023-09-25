@@ -19,7 +19,7 @@
   
    ![image](https://github.com/marcelchlupsa/segmentation-examples/assets/66844588/a5144715-c1d9-424b-bde5-b283d1f4d5a3)
 
-3. Examine the pixel data
+3. Examine the voxel data
 
    Plot the histogram of all voxel data (shows range and distribution of values)
    ```Matlab
