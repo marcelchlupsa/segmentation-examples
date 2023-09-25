@@ -32,12 +32,10 @@
 
 4. Perform the segmentation
 
-  From the voxel data, we know that the lower tail of the highest mode (the mode representing the sample) ends around 0.7.
+  From the voxel data, we know that the lower tail of the highest mode (the mode representing the sample) ends around 0.7. The following logical operation will yield a binary array in which the sample voxels are '1' and all other voxels are '0'.
   ```Matlab
   ImageVolume_segment = ImageVolume > 0.7;
   ```
-  
-  This will yield a binary array in which the sample voxels are '1' and all other voxels are '0'.
 
 5. Improve the segmentation
 
